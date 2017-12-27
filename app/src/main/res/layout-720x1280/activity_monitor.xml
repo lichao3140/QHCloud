@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/app_base_color"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="true"
+    tools:context="com.quhwa.cloudintercom.activity.MonitorActivity" >
+	<include 
+	    layout="@layout/title_layout"
+	    android:id="@+id/monitor_title"
+	    />
+	<RelativeLayout
+		android:background="@color/white"
+		android:layout_below="@+id/monitor_title"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			>
+			<com.scwang.smartrefresh.layout.SmartRefreshLayout
+				android:id="@+id/smart_refresh_device_list"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<com.scwang.smartrefresh.header.CircleHeader
+					android:layout_width="match_parent"
+					android:layout_height="100px" />
+
+				<GridView
+					android:id="@+id/lv_monitor_list"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:numColumns="2"
+					android:layout_margin="10dp"
+					android:horizontalSpacing="10dp"
+					android:verticalSpacing="10dp"
+					></GridView>
+
+			</com.scwang.smartrefresh.layout.SmartRefreshLayout>
+			<SurfaceView
+				android:id="@+id/sv_monitor"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="5"
+				android:layout_below="@+id/monitor_title"
+				android:visibility="gone"
+				/>
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				>
+				<android.support.v7.widget.AppCompatButton
+					android:id="@+id/btn_microphone"
+					android:layout_width="@dimen/video_button_width"
+					android:layout_height="@dimen/video_button_height"
+					android:background="@drawable/selector_call_microphone"
+					android:padding="5dp"
+					android:visibility="gone"
+					android:layout_marginLeft="10dp"
+					android:layout_centerVertical="true"
+					/>
+				<android.support.v7.widget.AppCompatButton
+					android:id="@+id/btn_stop_monitor"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:padding="5dp"
+					android:visibility="gone"
+					android:background="@drawable/selector_call_hangup"
+					android:layout_centerInParent="true"
+					/>
+				<android.support.v7.widget.AppCompatButton
+					android:id="@+id/btn_video_speaker"
+					android:layout_width="@dimen/video_button_width"
+					android:layout_height="@dimen/video_button_height"
+					android:background="@drawable/selector_call_speaking"
+					android:padding="5dp"
+					android:visibility="gone"
+					android:layout_alignParentRight="true"
+					android:layout_marginRight="10dp"
+					android:layout_centerVertical="true"
+					/>
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+
+	
+</RelativeLayout>

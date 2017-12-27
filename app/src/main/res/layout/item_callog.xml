@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+    <ImageView 
+        android:id="@+id/iv_icon_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_incoming"
+        />
+    <TextView 
+        android:id="@+id/tv_roomNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13824310924"
+        android:layout_toRightOf="@+id/iv_icon_call"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        />
+    <TextView 
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:25"
+        android:layout_alignParentRight="true"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>

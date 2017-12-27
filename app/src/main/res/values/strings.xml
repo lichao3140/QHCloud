@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">侨华开门</string>
+
+    <!-- common -->
+    <string name="smart_area">智慧小区</string>
+    <string name="life_circle">生活圈</string>
+    <string name="smart_family">智慧家庭</string>
+    <string name="own">我的</string>
+    <string name="mobile_net_break">移动网络断开</string>
+    <string name="wifi_net_break">wifi断开</string>
+    <string name="no_internet">无网络连接</string>
+    <string name="mobile_net_connect">移动网络已连接</string>
+    <string name="wifi_net_connect">wifi已连接</string>
+    <string name="microphone_forbid">麦克风已禁止,对方听不到声音</string>
+    <string name="microphone_open">麦克风已打开,对方可听到声音</string>
+
+    <!-- LoginActivity and RegisterActivity -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="back">返回</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="phone_num">手机号码</string>
+    <string name="password">密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="input_no_null">输入不为空</string>
+    <string name="password_inconsistency">密码不一致</string>
+    <string name="register_success">注册成功</string>
+    <string name="server_is_busy">请检查您的网络或服务器繁忙</string>
+    <string name="username_already_exist">用户名已存在</string>
+    <string name="password_error">密码错误</string>
+    <string name="username_not_exist">用户名不存在</string>
+    <string name="registering">正在为您注册...</string>
+    <string name="logining">正在为您登陆...</string>
+    <string name="login_success">登陆成功</string>
+    <string name="input_right_mobile_num">请输入正确的手机号码</string>
+
+    <!-- UserInfoActivity -->
+
+    <string name="userinfo_title">用户信息设置</string>
+    <string name="username">用户名:</string>
+    <string name="sipid">sip账号:</string>
+    <string name="sip_login_status">sip登陆状态:</string>
+    <string name="logout">退出登录</string>
+    <string name="sip_register">sip登陆</string>
+    <string name="logouting">退出中...</string>
+
+    <!-- SmartAreaFragment -->
+    <string name="door_to_door">访客密码</string>
+    <!-- <string name="door_to_door">户户通</string> -->
+    <string name="monitor">监控</string>
+    <string name="monitoring">监控中</string>
+    <string name="monitor_list">监控列表</string>
+    <string name="call_log">通话记录</string>
+    <string name="bind_device">绑定设备</string>
+    <string name="psw_open_door">jiankong</string>
+    <string name="contact_manager">联系物业</string>
+    <string name="door_record">开门记录</string>
+    <string name="record">记录</string>
+    <string name="area_announcement">短信消息</string>
+    <string name="server_for_people">便民服务</string>
+    <string name="sussgest">意见反馈</string>
+    <string name="setting">设置</string>
+
+    <!-- MyFragment -->
+    <string name="logout_status">未登录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dial">DialActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!-- CircleLifeFragment -->
+    <string name="loading">加载中...</string>
+    <string name="load_data_fail">数据加载失败</string>
+
+    <!-- MainActivity -->
+    <string name="system_prompt">温馨提醒</string>
+    <string name="are_you_sure_you_exit_the_application">您确定退出程序吗</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- DialerActivity -->
+    <string name="title_activity_dialer_activity">DialerActivityActivity</string>
+    <string name="please_login_first">登陆后方可使用此功能</string>
+
+    <!-- CallActivity -->
+    <string name="title_activity_call">CallActivity</string>
+    <string name="handup">挂断</string>
+    <string name="accept_call">接听</string>
+    <string name="incoming_ui">来电界面</string>
+    <string name="outgoing_ui">呼叫界面</string>
+    <string name="mute">静音</string>
+    <string name="speaking">扬声</string>
+    <string name="phone_num_not_exist">号码不存在</string>
+    <string name="unlock">开锁</string>
+    <string name="unlocking">开锁中...</string>
+    <string name="unlock_success">开锁成功</string>
+    <string name="unlock_fail">开锁失败</string>
+    <string name="please_hangup_first">请先挂断再操作</string>
+    <string name="speaker_mode">已为您切为扬声模式</string>
+    <string name="earpiece_mode">已为您切为听筒模式</string>
+    <string name="accepting">正在为您接听...</string>
+    <string name="hanguping">正在为您挂断...</string>
+    <string name="not_online">对方不在线</string>
+    <string name="busying">对方忙碌</string>
+    <string name="request_timeout">请求超时</string>
+    <string name="title_activity_call_log">CallLogActivity</string>
+
+    <!-- MonitorActivity -->
+    <string name="title_activity_monitor">MonitorActivity</string>
+    <string name="start_monitor">开始监控</string>
+    <string name="stop_monitor">停止监控</string>
+    <string name="user_disconnect">挂断</string>
+    <string name="please_stop_monitor_first">请先停止监控再操作</string>
+    <string name="connecting">连接中...</string>
+    <string name="no_room">暂无房间号</string>
+    <string name="are_you_sure_to_monitor_this_room">您确定监控此房间?</string>
+    <string name="title_activity_record">RecordActivity</string>
+    <string name="title_activity_open_door_record">OpenDoorRecordActivity</string>
+
+    <!-- BindDeviceActivity -->
+    <string name="title_activity_bind_device">BindDeviceActivity</string>
+    <string name="analysis_fail">解析失败</string>
+    <string name="device_is_binded">该设备已绑定</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="binding">绑定中...</string>
+    <string name="bind_fail">绑定失败</string>
+    <string name="please_scan_from_device">请从设备上扫描二维码</string>
+    <string name="device_is_binded_update_success">设备绑定更新成功</string>
+    <string name="more">更多</string>
+    <string name="choose_nothing">全不选</string>
+    <string name="choose_all">全选</string>
+    <string name="delete">删除</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="choose_you_want_delete">请选择您要删除的选项</string>
+    <string name="sip_is_registered">sip已登陆</string>
+    <string name="sip_is_not_registered">sip未登陆</string>
+    <string name="room">房</string>
+    <string name="room_device">房室内机</string>
+    <string name="door_device">门口机</string>
+    <string name="unbind_success">解绑成功</string>
+    <string name="unbind_fail">解绑失败</string>
+    <string name="unbinding">解绑中...</string>
+    <string name="unbind">解绑</string>
+    <string name="rename">重命名</string>
+    <string name="input_new_name">请输入新的名称</string>
+    <string name="alerting">修改中...</string>
+    <string name="choose_door_which_you_want_to_open">请选择你要开锁的门口机</string>
+    <string name="please_set_indoor_roomNum">请先设置室内机房号</string>
+    <string name="no_device_bind">暂无绑定设备</string>
+
+    <!-- UnlockActivity -->
+    <string name="title_activity_unlock">UnlockActivity</string>
+    <string name="are_you_sure_to_unlock">您确定开锁吗?</string>
+    <string name="title_activity_contact_property">ContactPropertyActivity</string>
+    <string name="title_activity_convenience_service">ConvenienceServiceActivity</string>
+
+    <!-- SettingActivity -->
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="modify_unlock_password">修改开锁密码</string>
+    <string name="cancel_incoming">屏蔽来电通知</string>
+    <string name="clear_device">清除缓存</string>
+    <string name="clear_success">清除成功</string>
+    <string name="clear_fail">暂无设备数据,清除失败</string>
+    <string name="old_password">用户密码</string>
+    <string name="new_password">新密码</string>
+    <string name="user_password_error">用户密码错误</string>
+    <string name="modifying">正在为您修改...</string>
+    <string name="modify_success">修改成功</string>
+    <string name="modify_fail">修改失败</string>
+    <string name="please_bind_device_first">请先绑定设备再执行此操作</string>
+    <string name="please_input_six_num_password">请输入6位数字密码</string>
+    <string name="set_fail">设置失败</string>
+    <string name="set_success">设置成功</string>
+    <string name="setting_for_you">正在为您设置...</string>
+    <string name="clear_data_tip">清理缓存后会清除设备数据，可能影响您对设备的使用，清理后如果您需要使用请重新绑定设备</string>
+
+    <!-- VisitorPwdActivity -->
+    <string name="title_activity_visitor_pwd">VisitorPwdActivity</string>
+    <string name="create_fail">生成失败</string>
+    <string name="create_success">生成成功</string>
+    <string name="producing">随机生成中...</string>
+    <string name="visitor_password">访客密码</string>
+    <string name="visitor_password_">访客密码：</string>
+    <string name="effective_time">有效时间：</string>
+    <string name="look_over_last_time_pwd">查看历史密码</string>
+    <string name="dao">到</string>
+    <string name="last_time_pwd">上次设置密码</string>
+    <string name="choose_device">请选择室内机</string>
+    <string name="choose_door_device">请选择门口机</string>
+    <string name="hide">隐藏</string>
+    <string name="this_visitor_password_is_effective_in_ten_min">此访客密码十分钟内有效</string>
+    <string name="title_activity_area_notice">AreaNoticeActivity</string>
+    <string name="total_msg">全部消息</string>
+    <string name="area_msg">小区消息</string>
+    <string name="personal_msg">个人消息</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="pull_down_refresh">下拉刷新</string>
+    <string name="release_start_refresh">释放开始刷新</string>
+    <string name="refresh_loading">正在加载...</string>
+    <string name="refresh_success">数据刷新成功</string>
+    <string name="refresh_compelete">刷新完成</string>
+    <string name="title_activity_visitor_pwd_activity_">VisitorPwdActivity_</string>
+
+    <!--AreaMessageFragment-->
+    <string name="no_area_data">暂无小区消息</string>
+    <string name="no_per_data">暂无个人消息</string>
+    <string name="no_data">暂无消息</string>
+
+    <!--NoticeActivity-->
+    <string name="msg_detail">消息详情</string>
+    <string name="deleting">删除中...</string>
+
+</resources>

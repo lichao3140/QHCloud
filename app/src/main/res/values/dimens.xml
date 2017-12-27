@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 标题文字大小 -->
+    <dimen name="title_text_size">18sp</dimen>
+    <!-- 智慧小区表格内边距  -->
+    <dimen name="smart_area_table_padding">20dp</dimen>
+    <!-- 智慧小区顶部背景图片高度  -->
+    <dimen name="smart_area_top_image_height">210dp</dimen>
+    <!-- 拨号键盘数字大小 -->
+    <dimen name="dialer_button_num_size">22sp</dimen>
+    <!-- 智慧小区button高度() -->
+    <dimen name="smartarea_button_height">354px</dimen>
+    <!-- 智慧小区button高度(720p) -->
+    <dimen name="smartarea_button_height_720">353px</dimen>
+    <!-- 来电、去电界面按钮高度和宽度 -->
+    <dimen name="call_button_height">80dp</dimen>
+    <dimen name="call_button_width">80dp</dimen>
+    <!-- 接通界面按钮高度和宽度 -->
+    <dimen name="video_button_height">70dp</dimen>
+    <dimen name="video_button_width">70dp</dimen>
+    <!--RadioButton高度-->
+    <dimen name="radio_button_height">200px</dimen>
+    <!--RadioButton宽度-->
+    <dimen name="radio_button_width">270px</dimen>
+
+
+</resources>

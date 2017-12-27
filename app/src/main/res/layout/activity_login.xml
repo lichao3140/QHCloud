@@ -1,0 +1,69 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/app_base_color"
+    tools:context="com.quhwa.cloudintercom.activity.LoginActivity" >
+	<include 
+	    layout="@layout/title_layout"
+	    android:id="@+id/login_title"
+	    />
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <include
+            layout = "@layout/input_layout"
+            android:id="@+id/login_username"
+            />
+        <include
+            layout = "@layout/input_layout"
+            android:id="@+id/login_password"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40px"
+            android:layout_marginTop="60px"
+            android:layout_marginLeft="45px"
+            android:layout_marginRight="45px"
+            android:text="@string/login"
+            android:textSize="@dimen/title_text_size"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="45px"
+            android:layout_marginRight="45px"
+            >
+            <TextView
+                android:id="@+id/tv_fortget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forget_password"
+
+                android:textSize="16sp"
+                android:background="@drawable/common_button_bg"
+                />
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:layout_alignParentRight="true"
+                android:textSize="16sp"
+                android:background="@drawable/common_button_bg"
+                />
+
+        </RelativeLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

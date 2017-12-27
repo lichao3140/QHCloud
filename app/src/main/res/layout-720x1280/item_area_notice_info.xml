@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150px"
+    android:padding="20px"
+     >
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cb_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        />
+    <TextView
+        android:id="@+id/tv_area_notice_title"
+        android:layout_width="450px"
+        android:layout_height="wrap_content"
+        android:text="停电了"
+        android:layout_toRightOf="@+id/cb_choose"
+        android:layout_marginLeft="20px"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        />
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20px"
+        >
+        <TextView
+            android:id="@+id/tv_area_notice_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:25"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/tv_roomNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_area_notice_time"
+            android:textColor="@color/app_base_color"
+            android:layout_alignParentRight="true"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

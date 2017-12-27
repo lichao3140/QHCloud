@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/app_base_color"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="true"
+	android:orientation="vertical"
+    tools:context="com.quhwa.cloudintercom.activity.UnlockActivity" >
+	<include 
+	    layout="@layout/title_layout"
+	    android:id="@+id/unlock_title"
+	    />
+
+	<com.scwang.smartrefresh.layout.SmartRefreshLayout
+		android:id="@+id/smart_refresh_device_list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:background="@color/white">
+		<com.scwang.smartrefresh.header.CircleHeader
+			android:layout_width="match_parent"
+			android:layout_height="100px" />
+		<ListView
+			android:id="@+id/lv_unlock_device_list"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			></ListView>
+	</com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

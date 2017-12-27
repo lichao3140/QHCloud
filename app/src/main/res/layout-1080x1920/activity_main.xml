@@ -1,0 +1,74 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_base_color"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+     >
+	<android.support.v4.view.ViewPager
+        android:id="@+id/vp_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/rg_tab_menu"
+        android:background="@color/white"
+        />
+    <com.quhwa.cloudintercom.widget.AutoRadioGroup
+        android:id="@+id/rg_tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/radio_button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tab_menu_background"
+        android:orientation="horizontal"
+         >
+
+        <RadioButton
+            android:id="@+id/rb_tab_menu_smart_area"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="@dimen/radio_button_height"
+            android:button="@null"
+            android:checked="true"
+
+            android:drawableTop="@drawable/deal_selector"
+            android:gravity="center"
+            android:text="@string/smart_area"
+            android:background="@null"
+            android:textColor="@drawable/text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_menu_life_circle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="@dimen/radio_button_height"
+            android:button="@null"
+            android:drawableTop="@drawable/nearby_selector"
+            android:gravity="center"
+            android:text="@string/life_circle"
+            android:background="@null"
+            android:textColor="@drawable/text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_menu_smart_family"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="@dimen/radio_button_height"
+            android:button="@null"
+            android:drawableTop="@drawable/more_selector"
+            android:gravity="center"
+            android:text="@string/smart_family"
+            android:background="@null"
+            android:textColor="@drawable/text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_menu_own"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="@dimen/radio_button_height"
+            android:button="@null"
+            android:drawableTop="@drawable/my_selector"
+            android:gravity="center"
+            android:text="@string/own"
+            android:background="@null"
+            android:textColor="@drawable/text_color_selector" />
+    </com.quhwa.cloudintercom.widget.AutoRadioGroup>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

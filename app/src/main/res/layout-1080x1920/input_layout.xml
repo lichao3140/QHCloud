@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/ll_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20px"
+        android:layout_marginTop="60px"
+        android:layout_gravity="center"
+        android:layout_marginLeft="35px"
+        android:layout_marginRight="35px"
+        android:background="@drawable/center_shape_username_and_password" >
+    <ImageView
+        android:id="@+id/iv_input"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="890px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:layout_marginLeft="15px"
+         />
+
+</com.zhy.autolayout.AutoLinearLayout>

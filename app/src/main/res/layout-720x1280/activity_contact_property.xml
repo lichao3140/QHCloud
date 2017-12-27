@@ -1,0 +1,21 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/app_base_color"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="true"
+	android:orientation="vertical"
+    tools:context="com.quhwa.cloudintercom.activity.ContactPropertyActivity" >
+
+    <include 
+	    layout="@layout/title_layout"
+	    android:id="@+id/contact_property_title"
+	    />
+	<View
+		android:background="@color/white"
+		android:id="@+id/view_contact"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"></View>
+
+</com.zhy.autolayout.AutoLinearLayout>

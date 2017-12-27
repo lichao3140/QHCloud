@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_smart_family_produce"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quhwa.cloudintercom.activity.ShowSmartFamilyProduceActivity">
+        <ImageView
+            android:id="@+id/iv_smart_produce"
+            android:layout_width="900px"
+            android:layout_height="900px"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/tv_smart_produce_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_smart_produce"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20px"
+            />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>
